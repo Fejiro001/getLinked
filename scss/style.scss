@@ -1,1 +1,17 @@
 @use 'reset';
+
+$primary-color: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
+$color-100: #150E28;
+$color-200: #903AFF;
+$color-300: #D434FE;
+$text: #FFFFFF;
+
+body {
+    background-color: $color-100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem
+}

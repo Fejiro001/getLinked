@@ -12,7 +12,6 @@
   */
 * {
   margin: 0;
-  color-scheme: dark light;
 }
 
 /*
@@ -58,4 +57,14 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+body {
+  background-color: #150E28;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
 }
